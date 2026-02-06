@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Chikkuu 💗</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- BACKGROUND MUSIC -->
+<audio id="music" src="perfect.mp3" loop></audio>
+
+<!-- FLOATING HEARTS -->
+<div class="hearts"></div>
+
+<!-- 🔐 LOCK SCREEN -->
+<section class="screen active" id="lock">
+  <h1>🔐 Enter the passcode</h1>
+  <p class="hint">Hint: 16 • 09 • 23 🫠</p>
+  <input type="password" id="code" placeholder="••••••">
+  <button onclick="unlock()">Unlock 💗</button>
+  <p id="error"></p>
+</section>
+
+<!-- 🌷 INTRO -->
+<section class="screen">
+  <h1>Hi Chikkuu 💕</h1>
+  <p>I couldn’t just say it…<br>so I built it 🥺</p>
+  <button onclick="start()">Tap softly 💗</button>
+</section>
+
+<!-- 💭 MEMORY SCREENS -->
+<section class="screen memory">
+  <img src="images/pic1.jpg">
+  <p>Keshav school bus 🚌<br>The place where everything unknowingly started.</p>
+</section>
+
+<section class="screen memory">
+  <img src="images/pic2.jpg">
+  <p>You talking with other boys 😒<br>
+  That argument…<br>
+  That’s when I realised —<br><b>I loveee you.</b></p>
+</section>
+
+<section class="screen memory">
+  <img src="images/pic3.jpg">
+  <p>Tucking your hair behind your ears…<br>ufff 😭💘</p>
+</section>
+
+<section class="screen memory">
+  <img src="images/pic4.jpg">
+  <p>Morning classroom moments 😄<br>
+  Serious students outside,<br>
+  full-time lovers inside 🤭</p>
+</section>
+
+<section class="screen memory">
+  <img src="images/pic5.jpg">
+  <p>Bus to tuition class 🚌<br>
+  Endless talks.<br>
+  Our deepest bond 💞</p>
+</section>
+
+<section class="screen memory">
+  <img src="images/pic6.jpg">
+  <p>Carol night 🎄<br>
+  No plan.<br>
+  Just one urge — to see my girl.</p>
+</section>
+
+<section class="screen memory">
+  <img src="images/pic7.jpg">
+  <p>February 28th 🫠<br>
+  Between buses.<br>
+  Our first kiss 💋</p>
+</section>
+
+<section class="screen memory">
+  <img src="images/pic8.jpg">
+  <p>
+    Love love lovee uuu…<br>
+    Chathalm ittitt pokullaaa 💕<br><br>
+    You always make me the happiestt bbg 💗
+  </p>
+</section>
+
+<!-- 💍 PROPOSAL -->
+<section class="screen proposal">
+  <h1>One last thing 🥺</h1>
+  <h2>Will u be my shuttu<br>for always in all ways? 💍</h2>
+
+  <div class="buttons">
+    <button class="yes" onclick="yes()">Yes (4) 💖</button>
+    <button class="no" onmouseover="move()">No 🙈</button>
+  </div>
+
+  <p id="final"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
